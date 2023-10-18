@@ -1,6 +1,6 @@
 import time
 
-from timemanager import TimeManager 
+from TimeManager import TimeManager 
 
 tm = TimeManager(verbose=False)
 tm.start("Test1", "ms", 3)
